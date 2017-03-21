@@ -1,50 +1,20 @@
 @font-face {
   font-family: 'icons';
-  src: url('fonts/icons.eot?#iefix') format('embedded-opentype'),
-       url('fonts/icons.woff') format('woff'),
-       url('fonts/icons.ttf')  format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.icon-facebook:before, .icon-github:before, .icon-twitter:before, .icon-envelope:before {
-  font-family: "icons" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-github:before {
-  content: "a";
-}
-.icon-twitter:before {
-  content: "b";
-}
-.icon-facebook:before {
-  content: "c";
-}
-.icon-envelope:before {
-  content: "d";
+  src:  url('fonts/icons.woff2') format('woff2'),
+        url('fonts/icons.woff') format('woff');
 }
 
 html, body {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 100%;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background: #f6f6f6;
-  min-height: 100%;
-  font: 16px Lato, Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #222;
+  background: #fff;
+  padding-bottom: 100px;
+  font: 2.5vh 'Source Sans Pro', Helvetica, Arial;
+  color: #333;
   text-align: center;
   position: relative;
   text-rendering: optimizeLegibility;
@@ -52,158 +22,175 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
 }
-
-.wrap {
-  width: 100%;
-  height: 100%;
-}
-.wrap:before {
-  content: '';
-  display: inline-block;
-  vertical-align: middle;
-  height: 100%;
-}
-
-.block {
-  display: inline-block;
-  vertical-align: middle;
-  width: 30%;
-}
-.block-center {
-  margin: 0 3%;
-}
-
 a {
   text-decoration: none;
-  transition: all 300ms;
+  transition: all .3s ease-in-out;
 }
-a:hover {
-  text-decoration: underline;
+h1, h2, h3, h4 {
+  font-weight: 600;
 }
-
-h1, h2, h3 {
-  font-weight: 300;
-  line-height: 1;
-}
-
 h1 {
-  font-size: 48px;
-  line-height: 1;
-  margin: 0 0 14px;
+  font-size: 2.5em;
+  margin: 15px 0 0;
 }
-
 h2 {
-  font-size: 32px;
-  margin: 0;
+  font-size: 1.4em;
+  margin: -8px 0 60px;
 }
-
 h3 {
-  font-size: 20px;
-  margin: 5px 0;
+  font-size: 1.8em;
 }
-
-.social {
-  list-style-type: none;
-  font-size: 48px;
-  text-align: center;
-  margin-top: 24px;
-  margin-bottom: 0;
-  padding: 20px 0 0;
-  display: block;
-  position: relative;
-}
-.social:before {
-  content: '';
-  width: 250px;
-  height: 1px;
-  background: #333;
-  opacity: .5;
-  position: absolute;
-  left: 50%;
-  top: 0;
-  margin-left: -125px;
-}
-.social li {
-  display: inline-block;
-  width: 80px;
-  height: 55px;
-  text-align: center;
-}
-.social a {
-  color: #EF233C;
-  height: 55px;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-.social a:hover {
-  color: #D90429;
-}
-
-.apps {
-  list-style-type: none;
+h4 {
+  font-size: 1.2em;
   margin: 0;
+}
+.projects, .contacts {
+  list-style-type: none;
   padding: 0;
-  margin-top: 20px;
-}
-.apps li, .apps a {
   display: inline-block;
+  margin: -10px auto 20px;
+  width: 50%;
+  text-align: left;
+}
+.projects > li {
+  padding-left: 120px;
   position: relative;
+  margin-bottom: 50px;
 }
-.apps .app-icon {
-  width: 80px;
-  height: 80px;
+.projects > li:before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 100px;
   border-radius: 18px;
-  margin: 0 8px;
+  border: 1px solid #eee;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 8px;
 }
-
-#interval-runs {
-  color: #57C0DA;
+.kyiv-murals:before {
+  background-image: url("images/kyiv-murals.png");
 }
-
-#around {
-  color: #222;
+.kyiv-murals a {
+  color: #fb5f53;
 }
-
-#obba {
+.kyiv-murals a:hover {
+  color: #fb180c;
+}
+.interval-run:before {
+  background-image: url("images/interval-run.png");
+}
+.interval-run a {
+  color: #57c0da;
+}
+.interval-run a:hover {
+  color: #04a0da;
+}
+.nova-poshta:before {
+  background-image: url("images/nova-poshta.png");
+}
+.nova-poshta a {
+  color: #ed1c24;
+}
+.nova-poshta a:hover {
+  color: #ce181f;
+}
+.parkizi:before {
+  background-image: url("images/parkizi.png");
+}
+.parkizi a {
+  color: #fd45b7;
+}
+.parkizi a:hover {
+  color: #fd0575;
+}
+.subnight:before {
+  background-image: url("images/subnight.png");
+}
+.subnight a {
+  color: #f5e353;
+}
+.subnight a:hover {
+  color: #f5dc0e;
+}
+.obba:before {
+  background-image: url("images/obba.png");
+}
+.obba a {
   color: #9cd65d;
 }
-
-#subnight {
-  color: #d1b65d;
+.obba a:hover {
+  color: #63d620;
+}
+.projects > li p {
+  margin: 6px 0 0;
+}
+.contacts {
+  width: 90%;
+  margin: -20px auto 70px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.contacts li {
+  display: inline-block;
+  margin-left: 60px;
+}
+.contacts li:first-child {
+  margin-left: 0;
+}
+.contacts a {
+  position: relative;
+  color: #fb5f53;
+}
+.contacts a:hover {
+  color: #fb180c;
+}
+.contacts a:before {
+  font-family: "icons";
+  font-size: 1.5em;
+  margin-right: 1.2vh;
+  position: relative;
+  top: .8vh;
+}
+.email:before {
+  content: "\e800";
+}
+.twitter:before {
+  content: "\f30a";
+}
+.telegram:before {
+  content: "\f2c6";
 }
 
-.block-info {
-  height: 236px;
+@media (max-width: 1120px) {
+  body {
+    font-size: 20px;
+  }
+  .projects, .contacts {
+    width: 90%;
+  }
 }
-.block-skills, .block-apps {
-  height: 195px;
+@media (max-width: 920px) {
+  .contacts {
+    width: 96%; 
+  }
 }
-
-@media (max-width: 890px) {
-  html, body {
-    height: auto;
-  }
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 26px;
-  }
-  .wrap {
-    height: auto;
-  }
-  .wrap:before {
-    display: none;
-  }
-  .block, .block-center {
-    display: block;
-    width: 96%;
-    margin: 34px auto;
-    height: auto;
-  }
-  .block-skills p {
-    max-width: 400px;
+@media (max-width: 850px) {
+  .contacts {
+    width: auto;
     margin-left: auto;
     margin-right: auto;
+  }
+  .contacts li {
+    display: block;
+    margin: 0;
+    text-align: left;
+  }
+}
+@media (max-width: 375px) {
+  .contacts {
+    font-size: 1.1em;
   }
 }
