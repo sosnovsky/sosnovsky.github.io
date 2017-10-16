@@ -79,6 +79,15 @@ h4 {
 .kyiv-murals a:hover {
   color: #fb180c;
 }
+.friends-at:before {
+  background-image: url("images/friends-at.png");
+}
+.friends-at a {
+  color: #ffcc00;
+}
+.friends-at a:hover {
+  color: #e7bc10;
+}
 .interval-run:before {
   background-image: url("images/interval-run.png");
 }
