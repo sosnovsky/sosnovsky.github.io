@@ -133,6 +133,15 @@ h4 {
 .obba a:hover {
   color: #63d620;
 }
+.weezee:before {
+  background-image: url("images/weezee.jpg");
+}
+.weezee a {
+  color: #bb2da1;
+}
+.weezee a:hover {
+  color: #a32eac;
+}
 .projects > li p {
   margin: 6px 0 0;
 }
