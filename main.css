@@ -142,6 +142,33 @@ h4 {
 .weezee a:hover {
   color: #a32eac;
 }
+.procoach:before {
+  background-image: url("images/procoach.png");
+}
+.procoach a {
+  color: #4db7dd;
+}
+.procoach a:hover {
+  color: #21a7d7;
+}
+.meshed:before {
+  background-image: url("images/meshed.png");
+}
+.meshed a {
+  color: #2c7dab;
+}
+.meshed a:hover {
+  color: #2d5986;
+}
+.millies-kids:before {
+  background-image: url("images/millies-kids.png");
+}
+.millies-kids a {
+  color: #652d90;
+}
+.millies-kids a:hover {
+  color: #7d19ca;
+}
 .projects > li p {
   margin: 6px 0 0;
 }
