@@ -106,42 +106,6 @@ h4 {
 .nova-poshta a:hover {
   color: #ce181f;
 }
-.parkizi:before {
-  background-image: url("images/parkizi.png");
-}
-.parkizi a {
-  color: #fd45b7;
-}
-.parkizi a:hover {
-  color: #fd0575;
-}
-.subnight:before {
-  background-image: url("images/subnight.png");
-}
-.subnight a {
-  color: #f5e353;
-}
-.subnight a:hover {
-  color: #f5dc0e;
-}
-.obba:before {
-  background-image: url("images/obba.png");
-}
-.obba a {
-  color: #9cd65d;
-}
-.obba a:hover {
-  color: #63d620;
-}
-.weezee:before {
-  background-image: url("images/weezee.jpg");
-}
-.weezee a {
-  color: #bb2da1;
-}
-.weezee a:hover {
-  color: #a32eac;
-}
 .procoach:before {
   background-image: url("images/procoach.png");
 }
@@ -160,14 +124,23 @@ h4 {
 .meshed a:hover {
   color: #2d5986;
 }
-.millies-kids:before {
-  background-image: url("images/millies-kids.png");
+.transom:before {
+  background-image: url("images/transom.png");
 }
-.millies-kids a {
-  color: #652d90;
+.transom a {
+  color: #1177FF;
 }
-.millies-kids a:hover {
-  color: #7d19ca;
+.transom a:hover {
+  color: #1162FF;
+}
+.karmic:before {
+  background-image: url("images/karmic.png");
+}
+.karmic a {
+  color: #FF6F00;
+}
+.karmic a:hover {
+  color: #FF4E00;
 }
 .projects > li p {
   margin: 6px 0 0;
