@@ -25,6 +25,7 @@ body {
 a {
   text-decoration: none;
   transition: all .3s ease-in-out;
+  font-weight: 600;
 }
 h1, h2, h3, h4 {
   font-weight: 600;
@@ -92,10 +93,10 @@ h4 {
   background-image: url("images/interval-run.png");
 }
 .interval-run a {
-  color: #57c0da;
+  color: #3EB4F2;
 }
 .interval-run a:hover {
-  color: #04a0da;
+  color: #43A3F7;
 }
 .nova-poshta:before {
   background-image: url("images/nova-poshta.png");
@@ -141,6 +142,15 @@ h4 {
 }
 .karmic a:hover {
   color: #FF4E00;
+}
+.qviq:before {
+  background-image: url("images/qviq.png");
+}
+.qviq a {
+  color: #555;
+}
+.qviq a:hover {
+  color: #000;
 }
 .projects > li p {
   margin: 6px 0 0;
