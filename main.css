@@ -20,7 +20,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 a {
   text-decoration: none;
@@ -151,6 +151,19 @@ h4 {
 }
 .qviq a:hover {
   color: #000;
+}
+.plate-up:before {
+  background-image: url("images/plateup.png");
+}
+.plate-up a {
+  color: #2C327E;
+}
+.plate-up a:hover {
+  color: #2C507E;
+}
+.download {
+  margin-top: 12px;
+  display: inline-block;
 }
 .projects > li p {
   margin: 6px 0 0;
